@@ -265,7 +265,7 @@ version = "1.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "40c48f72fd53cd289104fc64099abca73db4166ad86ea0b4341abe65af83dadc"
 dependencies = [
- "windows-sys 0.60.2",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
@@ -276,7 +276,7 @@ checksum = "291e6a250ff86cd4a820112fb8898808a366d8f9f58ce16d1f538353ad55747d"
 dependencies = [
  "anstyle",
  "once_cell_polyfill",
- "windows-sys 0.60.2",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
@@ -2140,8 +2140,8 @@ dependencies = [
  "insta",
  "keyring",
  "libc",
- "opentelemetry",
- "opentelemetry_sdk",
+ "opentelemetry 0.31.0",
+ "opentelemetry_sdk 0.33.1",
  "pretty_assertions",
  "rcgen",
  "rmcp",
@@ -2808,7 +2808,7 @@ dependencies = [
  "codex-utils-string",
  "deno_core_icudata",
  "futures",
- "opentelemetry",
+ "opentelemetry 0.31.0",
  "pretty_assertions",
  "serde_json",
  "tokio",
@@ -3044,8 +3044,8 @@ dependencies = [
  "maplit",
  "once_cell",
  "openssl-sys",
- "opentelemetry",
- "opentelemetry_sdk",
+ "opentelemetry 0.31.0",
+ "opentelemetry_sdk 0.33.1",
  "predicates",
  "pretty_assertions",
  "rand 0.9.3",
@@ -3225,8 +3225,8 @@ dependencies = [
  "core_test_support",
  "insta",
  "libc",
- "opentelemetry",
- "opentelemetry_sdk",
+ "opentelemetry 0.31.0",
+ "opentelemetry_sdk 0.33.1",
  "owo-colors",
  "predicates",
  "pretty_assertions",
@@ -3291,8 +3291,8 @@ dependencies = [
  "http 1.4.0",
  "libc",
  "notify",
- "opentelemetry",
- "opentelemetry_sdk",
+ "opentelemetry 0.31.0",
+ "opentelemetry_sdk 0.33.1",
  "pretty_assertions",
  "prost",
  "rcgen",
@@ -3674,8 +3674,8 @@ dependencies = [
  "codex-utils-output-truncation",
  "codex-utils-path-uri",
  "codex-utils-string",
- "opentelemetry",
- "opentelemetry_sdk",
+ "opentelemetry 0.31.0",
+ "opentelemetry_sdk 0.33.1",
  "pretty_assertions",
  "rand 0.9.3",
  "rmcp",
@@ -3827,8 +3827,8 @@ dependencies = [
  "http-body 1.0.1",
  "httpdate",
  "native-tls",
- "opentelemetry",
- "opentelemetry_sdk",
+ "opentelemetry 0.31.0",
+ "opentelemetry_sdk 0.33.1",
  "pretty_assertions",
  "rcgen",
  "reqwest 0.12.28",
@@ -3979,7 +3979,7 @@ dependencies = [
  "jsonwebtoken",
  "keyring",
  "once_cell",
- "opentelemetry_sdk",
+ "opentelemetry_sdk 0.33.1",
  "os_info",
  "pretty_assertions",
  "rand 0.9.3",
@@ -4364,7 +4364,7 @@ dependencies = [
  "codex-windows-sandbox",
  "globset",
  "libc",
- "opentelemetry",
+ "opentelemetry 0.31.0",
  "pretty_assertions",
  "rama-core",
  "rama-dns",
@@ -4434,12 +4434,12 @@ dependencies = [
  "gethostname",
  "http 1.4.0",
  "libc",
- "opentelemetry",
+ "opentelemetry 0.31.0",
  "opentelemetry-appender-tracing",
  "opentelemetry-http",
  "opentelemetry-otlp",
  "opentelemetry-semantic-conventions",
- "opentelemetry_sdk",
+ "opentelemetry_sdk 0.33.1",
  "os_info",
  "pretty_assertions",
  "rcgen",
@@ -4681,7 +4681,7 @@ dependencies = [
  "libc",
  "memchr",
  "oauth2",
- "opentelemetry_sdk",
+ "opentelemetry_sdk 0.33.1",
  "pretty_assertions",
  "rmcp",
  "serde",
@@ -4898,7 +4898,7 @@ dependencies = [
  "dunce",
  "futures",
  "insta",
- "opentelemetry_sdk",
+ "opentelemetry_sdk 0.33.1",
  "pretty_assertions",
  "schemars 0.8.22",
  "serde",
@@ -5138,7 +5138,7 @@ dependencies = [
  "libc",
  "objc2-app-kit",
  "objc2-foundation",
- "opentelemetry_sdk",
+ "opentelemetry_sdk 0.33.1",
  "pathdiff",
  "pretty_assertions",
  "pulldown-cmark",
@@ -5957,8 +5957,8 @@ dependencies = [
  "ctor 0.6.3",
  "futures",
  "notify",
- "opentelemetry",
- "opentelemetry_sdk",
+ "opentelemetry 0.31.0",
+ "opentelemetry_sdk 0.33.1",
  "pretty_assertions",
  "regex-lite",
  "serde_json",
@@ -6857,7 +6857,7 @@ dependencies = [
  "libc",
  "option-ext",
  "redox_users 0.5.2",
- "windows-sys 0.60.2",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
@@ -7214,7 +7214,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "39cab71617ae0d63f51a36d69f866391735b51691dbda63cf6f96d042b63efeb"
 dependencies = [
  "libc",
- "windows-sys 0.52.0",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
@@ -7366,7 +7366,7 @@ checksum = "0ce92ff622d6dadf7349484f42c93271a0d49b7cc4d466a936405bacbe10aa78"
 dependencies = [
  "cfg-if",
  "rustix 1.1.4",
- "windows-sys 0.52.0",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -7866,7 +7866,7 @@ dependencies = [
  "gobject-sys",
  "libc",
  "system-deps",
- "windows-sys 0.52.0",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
@@ -9290,7 +9290,7 @@ dependencies = [
  "js-sys",
  "log",
  "wasm-bindgen",
- "windows-core 0.58.0",
+ "windows-core 0.62.2",
 ]
 
 [[package]]
@@ -9743,7 +9743,7 @@ checksum = "3640c1c38b8e4e43584d8df18be5fc6b0aa314ce6ebf51b53313d4306cca8e46"
 dependencies = [
  "hermit-abi",
  "libc",
- "windows-sys 0.52.0",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
@@ -10724,7 +10724,7 @@ version = "0.50.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7957b9740744892f114936ab4a57b3f487491bbeafaf8083688b16841a4240e5"
 dependencies = [
- "windows-sys 0.60.2",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
@@ -11295,12 +11295,26 @@ dependencies = [
 ]
 
 [[package]]
+name = "opentelemetry"
+version = "0.33.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8c1f1a6ac9c875a4941e4c7c085b61e8f4daa326de03b4701768c3491a6ad9ee"
+dependencies = [
+ "futures-core",
+ "futures-sink",
+ "js-sys",
+ "pin-project-lite",
+ "thiserror 2.0.18",
+ "tracing",
+]
+
+[[package]]
 name = "opentelemetry-appender-tracing"
 version = "0.31.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ef6a1ac5ca3accf562b8c306fa8483c85f4390f768185ab775f242f7fe8fdcc2"
 dependencies = [
- "opentelemetry",
+ "opentelemetry 0.31.0",
  "tracing",
  "tracing-core",
  "tracing-subscriber",
@@ -11315,7 +11329,7 @@ dependencies = [
  "async-trait",
  "bytes",
  "http 1.4.0",
- "opentelemetry",
+ "opentelemetry 0.31.0",
  "reqwest 0.12.28",
 ]
 
@@ -11326,10 +11340,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7a2366db2dca4d2ad033cad11e6ee42844fd727007af5ad04a1730f4cb8163bf"
 dependencies = [
  "http 1.4.0",
- "opentelemetry",
+ "opentelemetry 0.31.0",
  "opentelemetry-http",
  "opentelemetry-proto",
- "opentelemetry_sdk",
+ "opentelemetry_sdk 0.31.0",
  "prost",
  "reqwest 0.12.28",
  "serde_json",
@@ -11347,8 +11361,8 @@ checksum = "a7175df06de5eaee9909d4805a3d07e28bb752c34cab57fa9cff549da596b30f"
 dependencies = [
  "base64 0.22.1",
  "const-hex",
- "opentelemetry",
- "opentelemetry_sdk",
+ "opentelemetry 0.31.0",
+ "opentelemetry_sdk 0.31.0",
  "prost",
  "serde",
  "serde_json",
@@ -11371,8 +11385,24 @@ dependencies = [
  "futures-channel",
  "futures-executor",
  "futures-util",
- "opentelemetry",
+ "opentelemetry 0.31.0",
  "percent-encoding",
+ "rand 0.9.3",
+ "thiserror 2.0.18",
+]
+
+[[package]]
+name = "opentelemetry_sdk"
+version = "0.33.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "372a912db2974d1990207006fd0e3aa0ef3fd4ad3be43c65cfaadf2206866061"
+dependencies = [
+ "futures-channel",
+ "futures-executor",
+ "futures-util",
+ "opentelemetry 0.33.1",
+ "percent-encoding",
+ "portable-atomic",
  "rand 0.9.3",
  "thiserror 2.0.18",
  "tokio",
@@ -11454,7 +11484,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7d8fae84b431384b68627d0f9b3b1245fcf9f46f6c0e3dc902e9dce64edd1967"
 dependencies = [
  "libc",
- "windows-sys 0.48.0",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
@@ -12390,7 +12420,7 @@ dependencies = [
  "libc",
  "log",
  "socket2 0.6.3",
- "windows-sys 0.52.0",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
@@ -13690,7 +13720,7 @@ dependencies = [
  "errno",
  "libc",
  "linux-raw-sys 0.4.15",
- "windows-sys 0.52.0",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -13703,7 +13733,7 @@ dependencies = [
  "errno",
  "libc",
  "linux-raw-sys 0.12.1",
- "windows-sys 0.52.0",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
@@ -13762,7 +13792,7 @@ dependencies = [
  "security-framework 3.5.1",
  "security-framework-sys",
  "webpki-root-certs",
- "windows-sys 0.52.0",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
@@ -14574,7 +14604,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3a766e1110788c36f4fa1c2b71b387a7815aa65f88ce0229841826633d93723e"
 dependencies = [
  "libc",
- "windows-sys 0.60.2",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
@@ -15404,7 +15434,7 @@ dependencies = [
  "getrandom 0.4.2",
  "once_cell",
  "rustix 1.1.4",
- "windows-sys 0.52.0",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
@@ -15460,7 +15490,7 @@ dependencies = [
  "parking_lot",
  "rustix 1.1.4",
  "signal-hook",
- "windows-sys 0.60.2",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
@@ -16234,7 +16264,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1ac28f2d093c6c477eaa76b23525478f38de514fa9aeb1285738d4b97a9552fc"
 dependencies = [
  "js-sys",
- "opentelemetry",
+ "opentelemetry 0.31.0",
  "smallvec",
  "tracing",
  "tracing-core",
@@ -17218,7 +17248,7 @@ version = "0.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c2a7b1c03c876122aa43f3020e6c3c3ee5c05081c9a00739faf7503aeba10d22"
 dependencies = [
- "windows-sys 0.48.0",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
